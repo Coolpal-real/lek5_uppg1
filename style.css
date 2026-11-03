@@ -1,0 +1,64 @@
+body{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 80%;
+    border: 5px solid red;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#mellan{
+    width: 80%;
+    border: 5px solid orange;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.vänster{
+    background-color: pink;
+    border: 3px solid black;
+    text-align: center;
+    width: 49%;
+    margin-right: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.höger{
+    background-color: gold;
+    border: 3px solid black;
+    text-align: center;
+    width: 49%;
+    margin-left: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+main{
+    width: 80%;
+    border: 5px solid yellow;
+    text-align: center;
+}
